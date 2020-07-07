@@ -21,6 +21,16 @@
   "category": [
     "lights"
   ],
+  "tags": {
+    "en": [
+      "Zigbee lichtning",
+      "Smart Inside"
+    ],
+    "nl": [
+      "Zigbee verlichting",
+      "Smart Inside"
+    ]
+  },
   "permissions": [],
   "images": {
     "large": "/assets/images/large.png",
