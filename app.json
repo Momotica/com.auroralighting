@@ -1,7 +1,7 @@
 {
   "id": "com.auroralighting",
   "brandColor": "#00aeef",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "compatibility": ">=3.0.0",
   "sdk": 2,
   "name": {
