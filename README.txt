@@ -1,5 +1,1 @@
-Aurora’s journey in lighting started when everything required switches on walls to turn on luminaires (Lighting 1.0). Focused on reinvention and futuristic design, Aurora progressed into Lighting 2.0 — integrated LED luminaires controlled by third party, on-premise solutions.
-
-Lighting is the most pervasive element in the built environment. As an existing, essential infrastructure element, lighting systems can readily form the backbone of an intelligent network. Aurora, at an early stage, identified the need for an interoperable, scalable, IoT platform. Collaborating with best-in-class partners was fundamental to driving innovation beyond legacy architecture solutions.
-
-Lighting 3.0 is the next generation of lighting, and Aurora is on a journey to turn the vision into a reality and continue to deliver Value Beyond Illumination™.
+Aurora Lighting makes your smart home even smarter. With there inline dimmers and relays you can make any lamp smart. Replace your excisting bulbs with smart bulbs. Use the wireless remotes to control al your lights and switches.
