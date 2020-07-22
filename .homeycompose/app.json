@@ -1,0 +1,43 @@
+{
+  "id": "com.auroralighting",
+  "brandColor": "#00aeef",
+  "version": "0.0.3",
+  "compatibility": ">=5.0.0",
+  "sdk": 3,
+  "name": {
+    "en": "Aurora Lighting AOne",
+    "nl": "Aurora Lighting AOne"
+  },
+  "description": {
+    "en": "Let lights welcome you home",
+    "nl": "Let lights welcome you home"
+  },
+  "contributing": {
+    "donate": {
+      "paypal": {
+        "username": "momotica"
+      }
+    }
+  },
+  "category": [
+    "lights"
+  ],
+  "tags": {
+    "en": [
+      "Zigbee lichtning",
+      "Smart Inside"
+    ],
+    "nl": [
+      "Zigbee verlichting",
+      "Smart Inside"
+    ]
+  },
+  "images": {
+    "large": "/assets/images/large.png",
+    "small": "/assets/images/small.png"
+  },
+  "author": {
+    "name": "Menno Bliek (Momotica)",
+    "email": "menno@momotica.nl"
+  }
+}

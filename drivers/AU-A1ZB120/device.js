@@ -1,22 +1,17 @@
 'use strict';
 
-const ZigBeeDevice = require('homey-meshdriver').ZigBeeDevice;
-const ZigBeeLightDevice = require('homey-meshdriver').ZigBeeLightDevice;
-const minDimLevel = 30;
+const { ZigBeeLightDevice } = require('homey-zigbeedriver');
 
 class AUA1ZB120 extends ZigBeeLightDevice {
-
-	onMeshInit() {
-
-    	this.enableDebug();
-        // print the node's info to the console
-        this.printNode();
-
-		this.registerCapability('onoff', 'genOnOff');
-
-		this.registerCapability('dim', 'genLevelCtrl');
-
-		this.log('AUA1ZB120 Zigbee device has been inited');
+	get energyMap() {
+		return {
+			'AOne 120W Dimmer': {
+				approximation: {
+					usageOff: 0,
+					usageOn: 120,
+				},
+			},
+		};
 	}
 
 }

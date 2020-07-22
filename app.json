@@ -1,9 +1,9 @@
 {
   "id": "com.auroralighting",
   "brandColor": "#00aeef",
-  "version": "0.0.2",
-  "compatibility": ">=3.0.0",
-  "sdk": 2,
+  "version": "0.0.3",
+  "compatibility": ">=5.0.0",
+  "sdk": 3,
   "name": {
     "en": "Aurora Lighting AOne",
     "nl": "Aurora Lighting AOne"
@@ -32,7 +32,6 @@
       "Smart Inside"
     ]
   },
-  "permissions": [],
   "images": {
     "large": "/assets/images/large.png",
     "small": "/assets/images/small.png"
@@ -45,22 +44,17 @@
     {
       "id": "AU-A1ZB120",
       "name": {
-        "en": "AOne 120W Dimmer"
+        "en": "AOne 120W Inline Dimmer",
+        "nl": "AOne 120W Dimmer"
       },
       "class": "light",
       "capabilities": [
-        "dim",
-        "onoff"
+        "onoff",
+        "dim"
       ],
       "capabilitiesOptions": {
         "onoff": {
           "setOnDim": false
-        }
-      },
-      "energy": {
-        "approximation": {
-          "usageOn": 120,
-          "usageOff": 0
         }
       },
       "images": {
@@ -68,14 +62,20 @@
         "small": "/drivers/AU-A1ZB120/assets/images/small.png"
       },
       "zigbee": {
-        "manufacturerName": [
-          "Aurora"
-        ],
-        "productId": [
-          "LCBulb01UK"
-        ],
-        "deviceId": 3,
-        "profileId": 260,
+        "manufacturerName": "Aurora",
+        "productId": "LCBulb01UK",
+        "endpoints": {
+          "1": {
+            "clusters": [
+              0,
+              4,
+              3,
+              6,
+              8,
+              5
+            ]
+          }
+        },
         "learnmode": {
           "image": "/drivers/AU-A1ZB120/assets/learnmode.svg",
           "instruction": {
