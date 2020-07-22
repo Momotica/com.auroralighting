@@ -10,5 +10,8 @@ AOne™ 120W Inline Dimmer (AU-A1ZB120)
 
 ## Change Log:
 
+### v 0.0.3
+Updated to SDK v3
+
 ### v 0.0.1
 Adds support for AOne™ 120W Inline Dimmer (AU-A1ZB120)
